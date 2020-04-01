@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/onto-publ-demo
+
+idspace: ONTO-PUBL-DEMO
+base_url: /obo/onto-publ-demo
+
+products:
+- onto-publ-demo.owl: https://raw.githubusercontent.com/alejgh/onto-publ-demo/master/onto-publ-demo.owl
+- onto-publ-demo.obo: https://raw.githubusercontent.com/alejgh/onto-publ-demo/master/onto-publ-demo.obo
+
+term_browser: ontobee
+example_terms:
+- onto-publ-demo_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/alejgh/onto-publ-demo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/alejgh/onto-publ-demo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/ONTO-PUBL-DEMO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/alejgh/onto-publ-demo/master/
