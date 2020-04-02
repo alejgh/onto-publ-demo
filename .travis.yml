@@ -1,4 +1,3 @@
-## REMEMBER TO SET UP YOUR GIT REPO FOR TRAVIS
 ## Go to: https://travis-ci.org/alejgh for details
 sudo: required
 
@@ -19,9 +18,3 @@ branches:
   only:
     - master
     - test-travis
-
-### Add your own lists here
-### See https://github.com/INCATools/ontology-development-kit/issues/35
-notifications:
-  email:
-    - obo-ci-reports-all@groups.io
