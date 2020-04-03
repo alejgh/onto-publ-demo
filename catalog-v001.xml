@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test" uri="module-individual.ttl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1585827097450" name="http://purl.obolibrary.org/obo/onto-publ-demo/imports/pato_import.owl" uri="ontology-dev-kit/src/ontology/imports/pato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1585827097450" name="http://purl.obolibrary.org/obo/onto-publ-demo/imports/po_import.owl" uri="ontology-dev-kit/src/ontology/imports/po_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1585827097450" name="http://purl.obolibrary.org/obo/onto-publ-demo/imports/ro_import.owl" uri="ontology-dev-kit/src/ontology/imports/ro_import.owl"/>
+    </group>
+</catalog>
