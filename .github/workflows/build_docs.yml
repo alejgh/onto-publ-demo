@@ -17,5 +17,18 @@ jobs:
     - name: Install dependencies
       run: pip install rdflib
 
-    - name: Merge ontology
+    - name: Checkout master
+      run: git checkout master
+
+    - name: Build docs
       run: python ./scripts/build-docs.py
+
+    - name: Remove gitignore
+      run: rm .gitignore
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.PAGES_DEPLOYMENT }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: build # The folder the action should deploy.
