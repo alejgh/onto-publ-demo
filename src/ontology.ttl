@@ -56,6 +56,8 @@
         rdfs:label "Artist"@en ,
                    "Artista"@es .
 
+:Instrument rdf:type owl:Class .
+
 
 ###  http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer
 :Singer rdf:type owl:Class ;

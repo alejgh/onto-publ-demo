@@ -1,0 +1,21 @@
+name: Build and Deploy Documentation
+
+on:
+  push:
+    branches: [ gh-pages ]
+
+jobs:
+  build-ontology:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v1
+      with:
+        python-version: '3.7'
+        architecture: 'x64'
+
+    - name: Install dependencies
+      run: pip install rdflib
+
+    - name: Merge ontology
+      run: python ./scripts/build-docs.py
