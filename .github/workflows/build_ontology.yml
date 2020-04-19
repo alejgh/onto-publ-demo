@@ -20,7 +20,7 @@ jobs:
       run: pip install rdflib
 
     - name: Merge ontology
-      run: python ./scripts/build-ontology.py
+      run: python ./scripts/build_ontology.py
 
     - name: Remove gitignore
       run: rm .gitignore

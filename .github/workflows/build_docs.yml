@@ -21,7 +21,7 @@ jobs:
       run: git checkout master
 
     - name: Build docs
-      run: python ./scripts/build-docs.py
+      run: python ./scripts/build_docs.py
 
     - name: Remove gitignore
       run: rm .gitignore
