@@ -18,7 +18,9 @@ jobs:
       run: pip install rdflib rdflib-jsonld
 
     - name: Checkout master
-      run: git checkout master
+      run: |
+        git fetch --no-tags --prune --depth=1 origin +refs/heads/*:refs/remotes/origin/*
+        git checkout master
 
     - name: Build docs
       run: python ./scripts/build_docs.py
