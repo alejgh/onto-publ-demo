@@ -2,8 +2,9 @@ import os
 
 from rdflib import Graph
 
+from common import OUTPUT_FOLDER, try_create_dir
+
 ALIGNMENTS_FOLDER = 'alignments'
-OUTPUT_FOLDER = 'build'
 SRC_FOLDER = 'src'
 
 MERGED_ONTOLOGY_FILE_NAME = 'merged_ontology'
@@ -32,10 +33,6 @@ def save_final_graph(graph, output_name):
         with open(output_name + output_extension, 'wb') as f:
             res = graph.serialize(format=output_format)
             f.write(res)
-
-def try_create_dir(dir_name):
-    if not os.path.exists(dir_name):
-        os.makedirs(dir_name)
 
 if __name__ == '__main__':
     file_names = retrieve_files_from([ALIGNMENTS_FOLDER, SRC_FOLDER])
