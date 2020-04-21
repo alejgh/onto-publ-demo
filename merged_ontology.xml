@@ -7170,7 +7170,6 @@
     <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dct1:created>
     <rdfs:label>ASIO ontology's vertical module on geopolitical, administrative subdivisions</rdfs:label>
     <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/#"/>
-    <dct1:creator rdf:nodeID="ub2bL36C15"/>
 
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_HA">
