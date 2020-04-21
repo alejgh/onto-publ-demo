@@ -4760,7 +4760,13 @@
     <skos:prefLabel>07</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#SubjectAreas">
-
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ast"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/eu"/>
+    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/#"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN.CD">
     <skos:prefLabel>ES.AN.CD</skos:prefLabel>
@@ -4939,8 +4945,7 @@
     <rdfs:label>45</rdfs:label>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ScientificDomains">
-
-  </rdf:Description>
+      </rdf:Description>
   <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES422">
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
     <skos:inScheme rdf:resource="http://purl.org/asio/modules#NUTS3CodeList"/>
@@ -7153,7 +7158,7 @@
     <skos:prefLabel xml:lang="ca-AD-fonipa">əŋ ˈkam</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#GeoPolitic">
-      </rdf:Description>
+    </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_HA">
     <rdfs:label>Historia y arte</rdfs:label>
     <skos:prefLabel xml:lang="gl">Historia e arte</skos:prefLabel>
