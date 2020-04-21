@@ -1,88 +1,8 @@
 [
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Individual"
-      },
-      {
-        "@language": "es",
-        "@value": "Individuo"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology"
-    ]
-  },
-  {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Singer"
-      },
-      {
-        "@language": "es",
-        "@value": "Cantante"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Artist"
-      },
-      {
-        "@language": "es",
-        "@value": "Artista"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@language": "en",
-        "@value": "musical composition for voice(s)"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Song"
-      },
-      {
-        "@language": "es",
-        "@value": "Canción"
-      }
     ]
   },
   {
@@ -108,6 +28,22 @@
     ]
   },
   {
+    "@id": "_:ub2bL20C22",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"
+      }
+    ]
+  },
+  {
     "@id": "_:ub2bL24C21",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
@@ -124,18 +60,18 @@
     ]
   },
   {
-    "@id": "_:ub2bL20C22",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
+      "http://www.w3.org/2002/07/owl#Class"
     ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
+    "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+        "@language": "es",
+        "@value": "Individuo"
+      },
       {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"
+        "@language": "en",
+        "@value": "Individual"
       }
     ]
   },
@@ -194,9 +130,9 @@
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2002/07/owl#Ontology"
     ]
   },
   {
@@ -211,10 +147,74 @@
     ]
   },
   {
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "es",
+        "@value": "Cantante"
+      },
+      {
+        "@language": "en",
+        "@value": "Singer"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"
+      }
+    ]
+  },
+  {
     "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun",
     "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"
+      "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer",
+      "http://www.w3.org/2002/07/owl#NamedIndividual"
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "es",
+        "@value": "Artista"
+      },
+      {
+        "@language": "en",
+        "@value": "Artist"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"
+      }
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@language": "en",
+        "@value": "musical composition for voice(s)"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Song"
+      },
+      {
+        "@language": "es",
+        "@value": "Canción"
+      }
     ]
   },
   {
