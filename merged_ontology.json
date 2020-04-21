@@ -1,33 +1,45 @@
 [
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2002/07/owl#Ontology"
     ],
-    "http://www.w3.org/2002/07/owl#equivalentClass": [
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
       {
-        "@id": "http://purl.org/ontology/mo/Instrument"
+        "@language": "en",
+        "@value": "This is just a test ontology"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "en",
+        "@value": "Test Ontology"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      {
+        "@value": ""
       }
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@language": "en",
-        "@value": "Artist"
+        "@language": "es",
+        "@value": "Individuo"
       },
       {
-        "@language": "es",
-        "@value": "Artista"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"
+        "@language": "en",
+        "@value": "Individual"
       }
     ]
   },
@@ -54,18 +66,29 @@
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@language": "en",
-        "@value": "Individual"
+        "@language": "es",
+        "@value": "Artista"
       },
       {
-        "@language": "es",
-        "@value": "Individuo"
+        "@language": "en",
+        "@value": "Artist"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"
       }
     ]
   },
@@ -124,37 +147,27 @@
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test",
     "@type": [
       "http://www.w3.org/2002/07/owl#Ontology"
+    ]
+  },
+  {
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Class"
     ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
+    "http://www.w3.org/2002/07/owl#equivalentClass": [
       {
-        "@language": "en",
-        "@value": "This is just a test ontology"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@language": "en",
-        "@value": "Test Ontology"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#imports": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#versionInfo": [
-      {
-        "@value": ""
+        "@id": "http://purl.org/ontology/mo/Instrument"
       }
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test",
+    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Ontology"
+      "http://www.w3.org/2002/07/owl#NamedIndividual",
+      "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"
     ]
   },
   {
@@ -180,22 +193,6 @@
     ]
   },
   {
-    "@id": "_:ub2bL33C24",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#someValuesFrom": [
-      {
-        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"
-      }
-    ]
-  },
-  {
     "@id": "_:ub2bL37C23",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
@@ -212,9 +209,19 @@
     ]
   },
   {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album",
+    "@id": "_:ub2bL33C24",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#someValuesFrom": [
+      {
+        "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"
+      }
     ]
   },
   {
@@ -236,13 +243,6 @@
       {
         "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"
       }
-    ]
-  },
-  {
-    "@id": "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#NamedIndividual",
-      "http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"
     ]
   }
 ]
