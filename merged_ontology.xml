@@ -328,6 +328,166 @@
     <owl:equivalentClass rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_25">
+    <skos:prefLabel>25</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CT"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdfs:label>25</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_46">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_VC"/>
+    <skos:prefLabel>46</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdfs:label>46</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ISO_CODE_ES_RI">
+    <rdfs:label>ES-RI</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESRegionISOCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>ES-RI</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_RI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_BFSGSYN">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdCodeList"/>
+    <rdfs:label>BFSGSYN</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_BFSGSYN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>BFSGSYN</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_MTMANAM">
+    <skos:prefLabel xml:lang="en">Mathematical analysis</skos:prefLabel>
+    <rdfs:label>Análisis matemático</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Analyse mathématique</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Análisis matemático</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_MTM"/>
+    <skos:prefLabel xml:lang="pt">Análise matemática</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_MTMANAM"/>
+    <skos:prefLabel xml:lang="ca">Anàlisi matemàtica</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <skos:prefLabel xml:lang="gl">Análise matemática</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Análisis matemático</skos:prefLabel>
+    <skos:notation>MTMANAM</skos:notation>
+    <skos:prefLabel>Análisis matemático</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ESSubjectAreas1stList">
+    <rdfs:label xml:lang="en-US-fonipa">fɜrst ˈlɛvəl ˈsʌbʤɪkt ˈɛriə</rdfs:label>
+    <skos:prefLabel xml:lang="gl">Áreas temáticas de primeiro nivel da Axencia Estatal de Investigación (AEI)</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">ˈaɾeas teˈmatikas ðe priˈmer niˈβel ðe la aˈxenθja estaˈtal ðe imbestiɣ̞aˈθjon</ontolex:phoneticRep>
+    <rdfs:label xml:lang="eu">FIXME</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#subjectAreas"/>
+    <skos:prefLabel xml:lang="ca-CA-fonipa">duˈminis təˈmatikz ðə pɾiˈme niˈβeʎ ðə ɫə ʒənˈsiə əstəˈtaɫ ðə rəˈsɛrkə</skos:prefLabel>
+    <rdfs:label xml:lang="ca">Dominis temàtics de primer nivell de l'Agència Estatal de Recerca (AEI)</rdfs:label>
+    <rdfs:label xml:lang="es-ES-fonipa">ˈaɾeas teˈmatikas ðe priˈmer niˈβel ðe la aˈxenθja estaˈtal ðe imbestiɣ̞aˈθjon</rdfs:label>
+    <skos:prefLabel xml:lang="an">Áreas temáticas de primer libel d'a AEI</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Áreas temáticas de primeiro nível</skos:prefLabel>
+    <rdfs:label xml:lang="fr">Domains thématiques de premier niveau de l'Agence Espagnole pour la Recherche (AEI)</rdfs:label>
+    <ontolex:phoneticRep xml:lang="en-US-fonipa">fɜrst ˈlɛvəl ˈsʌbʤɪkt ˈɛriə</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="oc">Áreas tematicas de primièr nivel de l'AEI</skos:prefLabel>
+    <rdfs:label xml:lang="ca-CA-fonipa">duˈminis təˈmatikz ðə pɾiˈme niˈβeʎ ðə ɫə ʒənˈsiə əstəˈtaɫ ðə rəˈsɛrkə</rdfs:label>
+    <skos:prefLabel xml:lang="en-US-fonipa">fɜrst ˈlɛvəl ˈsʌbʤɪkt ˈɛriəz</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">FIXME</skos:prefLabel>
+    <rdfs:label xml:lang="an">Áreas temáticas de primer libel d'a AEI</rdfs:label>
+    <rdfs:label xml:lang="pt">Áreas temáticas de primeiro nível</rdfs:label>
+    <ontolex:phoneticRep xml:lang="en-GB-fonipa">fɜːst ˈlɛvl ˈsʌbʤɪkt ˈeərɪəz</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="en-GB-fonipa">fɜːst ˈlɛvl ˈsʌbʤɪkt ˈeərɪəz</skos:prefLabel>
+    <rdfs:label xml:lang="oc">Áreas tematicas de primièr nivel de l'AEI</rdfs:label>
+    <skos:prefLabel xml:lang="en">First-level subject areas of Spain's State Research Agency (AEI)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-fonipa">ˈaɾeas teˈmatikas ðe priˈmer niˈβel ðe la aˈxenθja estaˈtal ðe imbestiɣ̞aˈθjon</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Dominis temàtics de primer nivell de l'Agència Estatal de Recerca (AEI)</skos:prefLabel>
+    <rdfs:label xml:lang="es">Áreas temáticas de primer nivel de la Agencia Estatal de Investigación (AEI)</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Domains thématiques de premier niveau de l'Agence Espagnole pour la Recherche (AEI)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Árees temátiques de primer nivel de l'Axencia Estatal de Investigación (AEI)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Áreas temáticas de primer nivel de la Agencia Estatal de Investigación (AEI)</skos:prefLabel>
+    <rdfs:label xml:lang="en-GB-fonipa">fɜːst ˈlɛvl ˈsʌbʤɪkt ˈeərɪəz</rdfs:label>
+    <rdfs:label xml:lang="gl">Áreas temáticas de primeiro nivel da Axencia Estatal de Investigación (AEI)</rdfs:label>
+    <rdfs:label xml:lang="en">First-level subject areas of Spain's State Research Agency (AEI)</rdfs:label>
+    <rdfs:label xml:lang="ast">Árees temátiques de primer nivel de l'Axencia Estatal de Investigación (AEI)</rdfs:label>
+    <ontolex:phoneticRep xml:lang="ca-CA-fonipa">duˈminis təˈmatikz ðə pɾiˈme niˈβeʎ ðə ɫə ʒənˈsiə əstəˈtaɫ ðə rəˈsɛrkə</ontolex:phoneticRep>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_GI">
+    <rdfs:label>ES-GI</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_GI"/>
+    <skos:prefLabel>ES-GI</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceISOCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ESProvincePCCodeList">
+    <skos:prefLabel xml:lang="en">Postal code prefixes for the provinces of Spain</skos:prefLabel>
+    <rdfs:label xml:lang="en">Postal code prefixes for the provinces of Spain</rdfs:label>
+    <rdfs:label xml:lang="es">Postal code prefixes de las provincias de España</rdfs:label>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#Country"/>
+    <dct1:publisher rdf:resource="http://purl.org/asio/modules#STANDARDIZATION_ORGANIZATION_INEES"/>
+    <skos:prefLabel xml:lang="ca">Postal code prefixes de les províncies d'Espanya</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Postal code prefixes de las provincias de España</skos:prefLabel>
+    <rdfs:label xml:lang="ca">Postal code prefixes de les províncies d'Espanya</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AN">
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_H"/>
+    <ontolex:phoneticRep xml:lang="es-ES-AN-fonipa">an da lu ˈsi a</ontolex:phoneticRep>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_SE"/>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_CA"/>
+    <skos:prefLabel xml:lang="ber-Tfng">ⵡⴰⵏⴷⴰⵍⵓⵙ</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_INEES_CODE_01"/>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_AL"/>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_J"/>
+    <skos:note xml:lang="ca">comunitat autònoma</skos:note>
+    <skos:prefLabel xml:lang="mwl">Andaluzie</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-AN-fonipa">an da lu ˈsi a</skos:prefLabel>
+    <skos:prefLabel xml:lang="ber-Latn">Wandalus</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Andalusia</skos:prefLabel>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_CO"/>
+    <skos:note xml:lang="es">comunidad autónoma</skos:note>
+    <skos:prefLabel xml:lang="ca-ES-CT-fonipa">ən də lu ˈzi ə</skos:prefLabel>
+    <skos:note xml:lang="en">autonomous community</skos:note>
+    <rdfs:label>Andalucía</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ISO_CODE_ES_AN"/>
+    <ontolex:phoneticRep xml:lang="ca-ES-CT-fonipa">ən də lu ˈzi ə</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="eu">Andaluzia</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_TGN_CODE_7002758"/>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_MA"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES61"/>
+    <skos:prefLabel xml:lang="pt">Andaluzia</skos:prefLabel>
+    <skos:prefLabel>Andalucía</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Andalosia</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-fonipa">an da lu ˈθi a</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_FIPS_CODE_SP51"/>
+    <skos:prefLabel xml:lang="fr">Andalousie</skos:prefLabel>
+    <skos:notation>ES-AN</skos:notation>
+    <skos:prefLabel xml:lang="ast">Andalucía</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Andalucía</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Andalusia</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">an da lu ˈθi a</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="gl">Andalucía</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESRegionList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN"/>
+    <skos:prefLabel xml:lang="ar">الأندلس</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:narrower rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_GR"/>
+    <skos:prefLabel xml:lang="an">Andalucía</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">ạlạ̉ndls</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Andaluzia</skos:prefLabel>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
+    <skos:prefLabel xml:lang="lad">Andaluziya</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#supervisedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:label xml:lang="en">supervised by</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#UniversityDivision">
+    <rdfs:comment xml:lang="en">A division within a university (school, faculty, etc.)</rdfs:comment>
+    <rdfs:label xml:lang="ca-ad">Divisió d'universitat</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Division d'université</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#University"/>
+    <rdfs:label xml:lang="ca-es">Divisió d'universitat</rdfs:label>
+    <rdfs:label xml:lang="en">University division</rdfs:label>
+    <rdfs:label xml:lang="gl">División de universidade</rdfs:label>
+    <rdfs:label xml:lang="es">División de universidad</rdfs:label>
+    <rdfs:label xml:lang="pt">Divisão de universidade</rdfs:label>
+  </rdf:Description>
   <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES615">
     <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_H"/>
     <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
