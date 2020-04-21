@@ -7170,7 +7170,21 @@
     <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dct1:created>
     <rdfs:label>ASIO ontology's vertical module on geopolitical, administrative subdivisions</rdfs:label>
     <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/#"/>
-
+    <owl:imports rdf:resource="http://purl.org/vocommons/voaf"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/eu"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/ca"/>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/gl"/>
+    <owl:imports rdf:resource="http://purl.org/asio"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <owl:imports rdf:resource="http://purl.org/asioModules"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/oc"/>
+    <voaf:reliesOn rdf:resource="http://purl.org/asio"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/an"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/org"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_HA">
     <rdfs:label>Historia y arte</rdfs:label>
