@@ -4614,4 +4614,41 @@
     <skos:prefLabel xml:lang="pt">Estudante de doutoramento</skos:prefLabel>
     <skos:altLabel xml:lang="fr">Doctorant</skos:altLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#">
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/eu"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <rdfs:comment xml:lang="en">A preliminary version of Spain's State Research Agency, subject areas vertical module belonging to the ASIO ontology. The data comes from a 1-star PDF file accessible at http://www.ciencia.gob.es/, which was transformed in 5-star linked data file (SKOS).</rdfs:comment>
+    <voaf:reliesOn rdf:resource="http://purl.org/asio"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/oc"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+    <dct1:language rdf:resource="https://iso639-3.sil.org/code/ext"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ast"/>
+    <dct1:creator rdf:nodeID="ub2bL36C15"/>
+    <rdfs:label>ASIO ontology's vertical module on scientific domains</rdfs:label>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
+    <rdfs:comment xml:lang="en">A preliminary version of Andorra's, Portugal's and Spain's administrative geosubdivisions integrating a geopolitic vertical module belonging to the ASIO ontology.</rdfs:comment>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/an"/>
+    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dct1:created>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/gl"/>
+    <rdfs:comment xml:lang="en">A preliminary version of the scientific-domains vertical module belonging to the ASIO ontology. The data comes from a 1-star PDF file accessible at http://www.ciencia.gob.es/stfls/MICINN/Ayudas/PE_2013_2016/PE_Promocion_e_Incorporacion_Talento_y_su_Empleabilidad/FICHEROS/SE_Incorporacion/Ayudas_contratos_RYC_2016/Clasificacion_areas_cientificas_2016_AEI.pdf which was transformed in 5-star linked data file (SKOS).</rdfs:comment>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <dct1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-15</dct1:created>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+    <owl:imports rdf:resource="http://purl.org/vocommons/voaf"/>
+    <dct1:creator rdf:nodeID="ub3bL33C15"/>
+    <rdfs:label>ASIO ontology's vertical module on geopolitical, administrative subdivisions</rdfs:label>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/ca"/>
+    <dct1:contributor rdf:nodeID="ub3bL56C19"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <owl:imports rdf:resource="http://purl.org/asioModules"/>
+    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/#"/>
+    <voaf:reliesOn rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <owl:imports rdf:resource="http://purl.org/asio"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/org"/>
+    <dct1:creator rdf:nodeID="ub5bL33C15"/>
+  </rdf:Description>
 </rdf:RDF>
