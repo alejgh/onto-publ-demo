@@ -1,7 +1,8 @@
-name: Build and Deploy Documentation
+name: Build and Deploy Documentation 2
 
 on:
-  page_build
+  push:
+    branches: [ gh-pages ]
   
 jobs:
   build-ontology:
