@@ -1,9 +1,8 @@
 name: Build and Deploy Documentation
 
 on:
-  push:
-    branches: [ gh-pages ]
-
+  page_build
+  
 jobs:
   build-ontology:
     runs-on: ubuntu-latest
