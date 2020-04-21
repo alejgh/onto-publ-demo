@@ -7158,7 +7158,17 @@
     <skos:prefLabel xml:lang="ca-AD-fonipa">əŋ ˈkam</skos:prefLabel>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#GeoPolitic">
-    </rdf:Description>
+    <voaf:reliesOn rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ast"/>
+    <rdfs:comment xml:lang="en">A preliminary version of Andorra's, Portugal's and Spain's administrative geosubdivisions integrating a geopolitic vertical module belonging to the ASIO ontology.</rdfs:comment>
+    <dct1:language rdf:resource="https://iso639-3.sil.org/code/ext"/>
+    <dct1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
+    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dct1:created>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_HA">
     <rdfs:label>Historia y arte</rdfs:label>
     <skos:prefLabel xml:lang="gl">Historia e arte</skos:prefLabel>
