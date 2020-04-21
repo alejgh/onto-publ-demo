@@ -1,83 +1,479 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+   xmlns:asio1="http://purl.org/asio/core#"
+   xmlns:dct1="http://purl.org/dc/terms/"
+   xmlns:foaf1="http://xmlns.com/foaf/0.1/#"
+   xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+   xmlns:org="http://www.w3.org/ns/org#"
    xmlns:owl="http://www.w3.org/2002/07/owl#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+   xmlns:time="http://www.w3.org/2006/time#"
+   xmlns:voaf="http://purl.org/vocommons/voaf#"
 >
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer">
-    <rdfs:label xml:lang="en">Singer</rdfs:label>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#Company">
+    <rdfs:comment xml:lang="es">Una organización con personalidad jurídica que dispone de los medios necesarios para la producción y se dedica a combinarlos para obtener bienes o servicios destinados al intercambio.</rdfs:comment>
+    <rdfs:label xml:lang="ca-ad">Empresa</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://dev.poderopedia.com/vocab/Company"/>
+    <skos:prefLabel xml:lang="gl">Empresa</skos:prefLabel>
+    <rdfs:comment xml:lang="ca">Una organització amb personalitat jurídica, la qual disposa dels mitjans necessaris per a la producció i es dedica a combinar-los per obtenir béns o serveis destinats a l'intercanvi.</rdfs:comment>
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/Company"/>
+    <rdfs:comment xml:lang="pt">Uma organização com personalidade jurídica, a qual dispõe dos médios necessários para a produção e obtenção de bens ou serviços destinados ao intercâmbio.</rdfs:comment>
+    <owl:equivalentClass rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <skos:prefLabel xml:lang="pt">Empresa</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-es">Empresa</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Empresa</rdfs:label>
+    <rdfs:label xml:lang="es">Empresa</rdfs:label>
+    <skos:prefLabel xml:lang="en">Company</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://vivoweb.org/ontology/core#Company"/>
+    <owl:equivalentClass rdf:resource="http://rdfs.org/resume-rdf/cv.rdfs#Company"/>
+    <owl:disjointWith rdf:resource="http://www.asio.es/asioontologies/asio#University"/>
+    <skos:prefLabel xml:lang="ca-ad">Empresa</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://sw-portal.deri.org/ontologies/swportal#Company"/>
+    <owl:equivalentClass rdf:resource="http://vocab.data.gov/def/fea#Company"/>
+    <rdfs:label xml:lang="fr">Entreprise</rdfs:label>
+    <rdfs:comment xml:lang="en">A corporation or business organization which makes goods (in a broad sense) in an organized manner and sells them to the public for profit.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"/>
-    <rdfs:label xml:lang="es">Cantante</rdfs:label>
+    <rdfs:label xml:lang="ca-es">Empresa</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/frapo/Company"/>
+    <owl:equivalentClass rdf:resource="http://www.ontotext.com/proton/protonext#Company"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <rdfs:label xml:lang="gl">Empresa</rdfs:label>
+    <rdfs:label xml:lang="en">Company</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Entreprise</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://eurocris.org/ontology/semcerif#Company"/>
+    <skos:prefLabel xml:lang="es">Empresa</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument">
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_QMC">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_QMC"/>
+    <rdfs:label>QMC</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>QMC</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_J">
+    <skos:notation>ES-J</skos:notation>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AN"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_J"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">xa ˈen</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">خاين</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN.JA"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_23"/>
+    <skos:prefLabel>Jaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Jaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Chaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Jaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Jaén province</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES616"/>
+    <skos:prefLabel xml:lang="pt">Jaén (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Jaén (province)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ast">Jaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Xaén</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_1001316"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_23"/>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:prefLabel xml:lang="es">Jaén</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">kẖạyn</skos:prefLabel>
+    <rdfs:label>Jaén</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:prefLabel xml:lang="eu">Jaen</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">xa ˈen</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="ext">Haén (província)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ESProvinceHASCCodeList">
+    <skos:prefLabel xml:lang="en">Hierarchical administrative subdivision codes (HASC) for the provinces of Spain</skos:prefLabel>
+    <dct1:publisher rdf:resource="http://purl.org/asio/modules#STANDARDIZATION_ORGANIZATION_HASC"/>
+    <rdfs:label>Hierarchical administrative subdivision codes (HASC) for the provinces of Spain</rdfs:label>
+    <skos:prefLabel xml:lang="es">Códigos HASC (Hierarchical administrative subdivision codes) de las provincias de España</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#Country"/>
+    <rdfs:label xml:lang="en">Hierarchical administrative subdivision codes (HASC) for the provinces of Spain</rdfs:label>
+    <rdfs:label xml:lang="ca">Codis HASC (Hierarchical administrative subdivision codes) de les províncies d'Espanya</rdfs:label>
+    <skos:prefLabel>Hierarchical administrative subdivision codes (HASC) for the provinces of Spain</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Codis HASC (Hierarchical administrative subdivision codes) de les províncies d'Espanya</skos:prefLabel>
+    <rdfs:label xml:lang="es">Códigos HASC (Hierarchical administrative subdivision codes) de las provincias de España</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_BMED">
+    <skos:prefLabel xml:lang="en">Biomedicine</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>Biomedicina</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_BMED"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_CVS"/>
+    <skos:notation>BMED</skos:notation>
+    <skos:prefLabel xml:lang="ca">biomedicina</skos:prefLabel>
+    <skos:note xml:lang="ca">Recerca i estudi en Biologia Molecular, Cel·lular, Genètica, Microbiologia, Fisiologia, Immunologia i àrees afins, amb aplicacions o interès en biomedicina.</skos:note>
+    <skos:prefLabel xml:lang="fr">Biomédecine</skos:prefLabel>
+    <rdfs:label>Biomedicina</rdfs:label>
+    <skos:prefLabel xml:lang="es">Biomedicina</skos:prefLabel>
+    <skos:note xml:lang="en">Research and study in Molecular, Cellular, Genetic Biology, Microbiology, Physiology, Immunology and related areas, with applications or interest in Biomedicine.</skos:note>
+    <skos:prefLabel xml:lang="gl">Biomedicina</skos:prefLabel>
+    <skos:note xml:lang="gl">Investigación e estudo en Bioloxía Molecular, Celular, Xenética, Microbioloxía, Fisioloxía, Inmunoloxía e áreas relacionadas, con aplicacións ou interese na Biomedicina.</skos:note>
+    <skos:prefLabel xml:lang="pt">Biomedicina</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Biomedicina</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_CB">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains1stList"/>
+    <skos:prefLabel xml:lang="en">Basic sciences</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Sciencias basicas</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">θjen̪ θjaz 'βa si kas</skos:prefLabel>
+    <skos:prefLabel>Ciencias básicas</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Ciencies básiques</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ciências básicas</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ontolex:phoneticRep xml:lang="en-GB">ˈbeɪsɪk ˈsaɪənsɪz</ontolex:phoneticRep>
+    <ontolex:phoneticRep xml:lang="en-US">ˈbeɪsɪk ˈsaɪənsəz</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="eu">Oinarrizko zientziak</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-US">ˈbeɪsɪk ˈsaɪənsəz</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Ciències bàsiques</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_CODE_CB"/>
+    <skos:prefLabel xml:lang="en-GB">ˈbeɪsɪk ˈsaɪənsɪz</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca">siˈɛnsiəs ˈbəzikəs</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="ca">siˈɛnsiəs ˈbəzikəs</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Sciéncias fondamentalas</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es">θjen̪ θjaz 'βa si kas</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="fr">Sciences fondamentales</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Céncias básicas</skos:prefLabel>
+    <skos:notation>CB</skos:notation>
+    <skos:prefLabel xml:lang="es">Ciencias básicas</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Ciencias básicas</skos:prefLabel>
+    <rdfs:label>Ciencias básicas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_30">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="mwl">Region outónoma de la Madeira</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Região Autónoma da Madeira</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="pt-PT-fonipa">mɐˈdɐjrɐ</ontolex:phoneticRep>
+    <skos:altLabel xml:lang="pt">Madeira (região autónoma)</skos:altLabel>
+    <skos:note xml:lang="mwl">region outónoma</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_HASC_CODE_PT.MA"/>
+    <skos:prefLabel>Região Autónoma da Madeira</skos:prefLabel>
+    <skos:altLabel xml:lang="mwl">Madeira (region outónoma)</skos:altLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_FIPS_CODE_PO10"/>
+    <skos:note xml:lang="en">autonomous region</skos:note>
+    <skos:prefLabel xml:lang="en">Madeira Autonomous Region</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionList"/>
+    <skos:note xml:lang="es">región autónoma</skos:note>
+    <skos:note xml:lang="pt">região autónoma</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_ISO_CODE_PT_30"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_INEPT_CODE_92"/>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <skos:prefLabel xml:lang="pt-PT-fonipa">mɐˈdɐjrɐ</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Región Autónoma de Madeira</skos:prefLabel>
+    <rdfs:label>Região Autónoma da Madeira</rdfs:label>
+    <skos:notation>PT-30</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_22">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AR"/>
+    <skos:prefLabel>22</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>22</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.CL.ZM">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceHASCCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+    <rdfs:label>ES.CL.ZM</rdfs:label>
+    <skos:prefLabel>ES.CL.ZM</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#BacherlorsDegree">
+    <skos:prefLabel xml:lang="en">Bachelor's degree</skos:prefLabel>
+    <skos:altLabel xml:lang="ca-ad">Bàtxelor</skos:altLabel>
+    <rdfs:label xml:lang="pt-pt">Licenciatura (pós-Bologna)</rdfs:label>
+    <rdfs:label xml:lang="ca-es">Títol de grau</rdfs:label>
+    <skos:prefLabel xml:lang="ca-ad">Títol de bàtxelor</skos:prefLabel>
+    <rdfs:label xml:lang="en">Bachelor's degree</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <owl:equivalentClass rdf:resource="http://purl.org/ontology/mo/Instrument"/>
+    <rdfs:comment xml:lang="en">An undergraduate academic degree awarded by colleges and universities upon completion of a course of study lasting three to four years (depending on institution and academic discipline).</rdfs:comment>
+    <skos:prefLabel xml:lang="es">Título de grado</skos:prefLabel>
+    <skos:altLabel xml:lang="gl">Grao</skos:altLabel>
+    <skos:altLabel xml:lang="es">Grado</skos:altLabel>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#AcademicDegree"/>
+    <skos:altLabel xml:lang="eu">Gradu</skos:altLabel>
+    <skos:altLabel xml:lang="pt">Grau</skos:altLabel>
+    <skos:altLabel xml:lang="ca-es">Grau</skos:altLabel>
+    <skos:prefLabel xml:lang="pt-pt">Licenciatura (pós-Bologna)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-es">Títol de grau</skos:prefLabel>
+    <rdfs:label xml:lang="es">Título de grado</rdfs:label>
+    <rdfs:label xml:lang="ca-ad">Títol de bàtxelor</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub2bL37C23">
-    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"/>
-    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_07">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_DEAND_CODE_20005"/>
+    <skos:prefLabel xml:lang="en">Andorra la Vella Parish</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Andòrra la Vièlha (parròquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Andorra la Vella (parròquia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_HASC_CODE_AD.AN"/>
+    <skos:prefLabel xml:lang="ca-AD-fonipa">ən ˈdo rə ɫə ˈβeʎə</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Andorre-la-Vieille (paroisse)</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca-AD-fonipa">ən ˈdo rə ɫə ˈβeʎə</ontolex:phoneticRep>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_FIPS_CODE_AN07"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Andorra la Vieja (parroquia)</skos:prefLabel>
+    <skos:prefLabel>Andorra la Vella (parròquia)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishList"/>
+    <skos:prefLabel xml:lang="pt">Andorra la Vella (paróquia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_ISO_CODE_AD_07"/>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/AND"/>
+    <rdfs:label>Andorra la Vella (parròquia)</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_CP_CODE_AD500"/>
+    <skos:notation>AD-07</skos:notation>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SUBJECT_AREA_LEVEL_1_CMIFQ">
+    <ontolex:phoneticRep xml:lang="es-ES">ˈθjenθjaz mateˈmatikas ˈfisikas ˈkimikas e iŋxenjeˈrias</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="pt">Ciências matemáticas, físicas, químicas e de engenharia</skos:prefLabel>
+    <skos:prefLabel>Ciencias matemáticas, físicas, químicas e ingenierías</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-GB">ˌmæθɪˈmætɪkəl, ˈfɪzɪkəl, ˈkɛmɪkəl ænd ˌɛnʤɪˈnɪərɪŋ ˈsaɪənsɪz</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Ciencias matemáticas, físicas, químicas e de enxeñaría</skos:prefLabel>
+    <skos:prefLabel xml:lang="en-US">ˌmæθəˈmætɪkəl, ˈfɪzɪkəl, ˈkɛməkəl ænd ˈɛnʤəˈnɪrɪŋ ˈsaɪənsəz</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Ciències matemàtiques, físiques, químiques i enginyeries</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca">siˈɛnsiəs mətəˈmatikəs ˈfizikəs ˈkimikəz i əɲʒiɲəˈɾiəs</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="ast">Ciencies matemátiques, físiques, químiques ya inxenieríes</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESSubjectAreas1stList"/>
+    <skos:prefLabel xml:lang="ext">Céncias i ingenierías</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="en-US">ˌmæθəˈmætɪkəl, ˈfɪzɪkəl, ˈkɛməkəl ænd ˈɛnʤəˈnɪrɪŋ ˈsaɪənsəz</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="oc">Sciéncias matematicas, fisicas, quimicas e engenhariá</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">siˈɛnsiəs mətəˈmatikəs ˈfizikəs ˈkimikəz i əɲʒiɲəˈɾiəs</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SUBJECT_AREA_LEVEL_1_CODE_CMIFQ"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Ciencias matemáticas, físicas, químicas e ingenierías</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Sciences mathématiques, physiques, chimiques et du génie</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Mathematical, physical, chemical and engineering sciences</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Matematika, fisika, kimika eta ingeniaritza zientziak</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="en-GB">ˌmæθɪˈmætɪkəl, ˈfɪzɪkəl, ˈkɛmɪkəl ænd ˌɛnʤɪˈnɪərɪŋ ˈsaɪənsɪz</ontolex:phoneticRep>
+    <rdfs:label>Ciencias matemáticas, físicas, químicas e ingenierías</rdfs:label>
+    <skos:prefLabel xml:lang="an">Sciencias matematicas, fisicas, quimicas y inchenierías</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES">ˈθjenθjaz mateˈmatikas ˈfisikas ˈkimikas e iŋxenjeˈrias</skos:prefLabel>
+    <skos:notation>CMIFQ</skos:notation>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test">
-    <owl:imports rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-    <rdfs:comment xml:lang="en">This is just a test ontology</rdfs:comment>
-    <owl:versionInfo></owl:versionInfo>
-    <rdfs:label xml:lang="en">Test Ontology</rdfs:label>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_BVAEWIUP">
+    <rdfs:label>Microbiología</rdfs:label>
+    <skos:prefLabel xml:lang="gl">Microbioloxía</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Microbiologia</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_BVAEWIUP"/>
+    <skos:prefLabel>Microbiología</skos:prefLabel>
+    <skos:notation>BVAEWIUP</skos:notation>
+    <skos:prefLabel xml:lang="fr">Microbiologie</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <skos:prefLabel xml:lang="es">Microbiología</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_BVAE"/>
+    <skos:prefLabel xml:lang="en">Microbiology</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Microbioloxía</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Microbiologia</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual">
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#GraduateStudent">
+    <rdfs:label xml:lang="en">Graduate student</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label xml:lang="en">Individual</rdfs:label>
-    <rdfs:label xml:lang="es">Individuo</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#Student"/>
+    <skos:prefLabel xml:lang="en">Graduate student</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun">
-    <rdf:type rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_AL">
+    <skos:prefLabel xml:lang="an">Almería</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN.AM"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AN"/>
+    <skos:prefLabel xml:lang="es">Almería</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Almeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Almería</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Almeria (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-fonipa">al me ˈɾi a</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">ạlmryẗ</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Almería province</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_AL"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES611"/>
+    <skos:prefLabel xml:lang="fr">Almería (province)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Almeria</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Almeria</skos:prefLabel>
+    <rdfs:label>Almería</rdfs:label>
+    <skos:notation>ES-AL</skos:notation>
+    <skos:prefLabel xml:lang="ar">المرية</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">al me ˈɾi a</ontolex:phoneticRep>
+    <skos:note xml:lang="en">Province</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_04"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_04"/>
+    <skos:prefLabel xml:lang="ast">Almería</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:prefLabel xml:lang="pt">Almeria (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002805"/>
+    <skos:prefLabel>Almería</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub2bL33C24">
-    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"/>
-    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_QMCQUAN">
+    <skos:prefLabel>QMCQUAN</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_QMCQUAN"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>QMCQUAN</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdCodeList"/>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub2bL24C21">
-    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"/>
-    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song">
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#ResearchInstitute">
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/frapo/ResearchInstitute"/>
+    <rdfs:label xml:lang="en">Research institute</rdfs:label>
+    <rdfs:label xml:lang="ca-ad">Centre de recerca</rdfs:label>
+    <skos:prefLabel xml:lang="ca-es">Centre d'investigació</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://sw-portal.deri.org/ontologies/swportal#ResearchInstitute"/>
+    <skos:prefLabel xml:lang="fr">Centre de recherche</skos:prefLabel>
+    <rdfs:comment xml:lang="en">An establishment founded for doing research.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <skos:prefLabel xml:lang="es">Centro de investigación</skos:prefLabel>
+    <rdfs:label xml:lang="es">Centro de investigación</rdfs:label>
+    <rdfs:label xml:lang="pt">Centro de investigação</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://eurocris.org/ontology/semcerif#ResearchInstitute"/>
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/ResearchInstitute"/>
+    <rdfs:label xml:lang="fr">Centre de recherche</rdfs:label>
+    <skos:prefLabel xml:lang="en">Research institute</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-ad">Centre de recerca</skos:prefLabel>
+    <rdfs:label xml:lang="ca-es">Centre d'investigació</rdfs:label>
+    <skos:prefLabel xml:lang="pt">Centro de investigação</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://vivoweb.org/ontology/core#ResearchOrganization"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:comment xml:lang="en">musical composition for voice(s)</rdfs:comment>
-    <rdfs:label xml:lang="en">Song</rdfs:label>
-    <rdfs:label xml:lang="es">Canción</rdfs:label>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of">
-    <rdfs:label xml:lang="en">part of</rdfs:label>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:range rdf:nodeID="ub2bL24C21"/>
-    <rdfs:domain rdf:nodeID="ub2bL20C22"/>
+  <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES615">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_H"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#NUTS3CodeList"/>
+    <skos:broader rdf:resource="http://nuts.geovocab.org/id/ES61"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by">
-    <rdfs:label xml:lang="en">played by</rdfs:label>
-    <rdfs:domain rdf:nodeID="ub2bL33C24"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:range rdf:nodeID="ub2bL37C23"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_SA">
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+    <skos:prefLabel xml:lang="eu">Salamanca</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Salamanca</skos:prefLabel>
+    <rdfs:label>Salamanca</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_37"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES415"/>
+    <skos:prefLabel xml:lang="en">Salamanca province</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">شلمنقة</skos:prefLabel>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:prefLabel xml:lang="gl">Salamanca</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_SA"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">sa la ˈmaŋ ka</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">sa la ˈmaŋ ka</ontolex:phoneticRep>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002835"/>
+    <skos:notation>ES-SA</skos:notation>
+    <skos:prefLabel xml:lang="an">Salamanca</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Salamanca (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.CL.SL"/>
+    <skos:prefLabel xml:lang="ca">Salamanca</skos:prefLabel>
+    <skos:prefLabel>Salamanca</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Salamanca (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Salamanca</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">sẖlmnqẗ</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Salamanca</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_37"/>
+    <skos:prefLabel xml:lang="fr">Salamanque (province)</skos:prefLabel>
   </rdf:Description>
-  <rdf:Description rdf:nodeID="ub2bL20C22">
-    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"/>
-    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"/>
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_TM">
+    <skos:prefLabel xml:lang="gl">Ciencia e tecnoloxía dos materiais</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndList"/>
+    <skos:prefLabel xml:lang="fr">Science et technologie des matériaux</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Ciència i tecnologia de materials</skos:prefLabel>
+    <rdfs:label>Ciencia y tecnología de materiales</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="ast">Ciencia y tecnoloxía de materiales</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Ciencia y tecnología de materiales</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_TM"/>
+    <skos:prefLabel>Ciencia y tecnología de materiales</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Science and technology of materials</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ciência e tecnologia de materiais</skos:prefLabel>
+    <skos:notation>TM</skos:notation>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_IYT"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist">
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_MA">
+    <skos:prefLabel xml:lang="ast">Málaga</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="pt">Málaga (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">مالقة</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Malaga (province)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Màlaga</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Malaga</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Málaga</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Malaga</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Málaga (província)</skos:prefLabel>
+    <rdfs:label>Málaga</rdfs:label>
+    <skos:prefLabel xml:lang="en">Málaga province</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_29"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN.MG"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES617"/>
+    <skos:prefLabel xml:lang="ar-Latn">mạlqẗ</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AN"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_MA"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">ˈma la γa</skos:prefLabel>
+    <skos:notation>ES-MA</skos:notation>
+    <skos:note xml:lang="en">Province</skos:note>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">ˈma la γa</ontolex:phoneticRep>
+    <skos:prefLabel>Málaga</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002830"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_29"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:prefLabel xml:lang="oc">Malaga</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Málaga</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CTESTR">
+    <skos:prefLabel xml:lang="gl">Estratigrafía</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Stratigraphy</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <skos:notation>CTESTR</skos:notation>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="pt">Estratigrafia</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Estratigrafía</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CT"/>
+    <skos:prefLabel xml:lang="es">Estratigrafía</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Estratigrafia</skos:prefLabel>
+    <rdfs:label>Estratigrafía</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Stratigraphie</skos:prefLabel>
+    <skos:prefLabel>Estratigrafía</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_CTESTR"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_GR">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AN.GD"/>
+    <skos:prefLabel xml:lang="ca">Granada</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002821"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_GR"/>
+    <skos:prefLabel xml:lang="ast">Granada</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_18"/>
+    <skos:prefLabel xml:lang="ar">غرناطة</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Granada</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Granada</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Graná (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Granada (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">gẖrnạṭẗ</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">gɾa ˈna ða</ontolex:phoneticRep>
+    <skos:notation>ES-GR</skos:notation>
+    <skos:prefLabel xml:lang="fr">Granade (province)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AN"/>
+    <skos:prefLabel xml:lang="an">Granada</skos:prefLabel>
+    <skos:note xml:lang="en">Province</skos:note>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES614"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">gɾa ˈna ða</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Granada</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Granada province</skos:prefLabel>
+    <skos:prefLabel>Granada</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_18"/>
+    <rdfs:label>Granada</rdfs:label>
+    <skos:prefLabel xml:lang="gl">Granda</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#Spinoff">
+    <rdfs:label xml:lang="es">Empresa spin-off</rdfs:label>
+    <rdfs:label xml:lang="ca-es">Empresa derivada</rdfs:label>
+    <skos:prefLabel xml:lang="en">Corporate spin-off</skos:prefLabel>
+    <rdfs:label xml:lang="fr">Société scindée</rdfs:label>
+    <rdfs:label xml:lang="en">Corporate spin-off</rdfs:label>
+    <rdfs:label xml:lang="ca-ad">Empresa derivada</rdfs:label>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:label xml:lang="en">Artist</rdfs:label>
-    <rdfs:label xml:lang="es">Artista</rdfs:label>
-    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album">
-    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="es">Empresa spin-off</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-es">Empresa derivada</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Empresa derivada</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Société scindée</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Spin-off enpresa</skos:prefLabel>
+    <rdfs:comment xml:lang="en">A division of a company or an organization that becomes an independent business with assets, employees, intellectual property, technology, or existing products taken from the parent company.</rdfs:comment>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#Company"/>
+    <skos:prefLabel xml:lang="ca-ad">Empresa derivada</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Empresa derivada</skos:prefLabel>
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/frapo/SpinOffCompany"/>
+    <rdfs:label xml:lang="eu">Spin-off enpresa</rdfs:label>
   </rdf:Description>
 </rdf:RDF>
