@@ -4634,7 +4634,6 @@
     <rdfs:comment xml:lang="en">A preliminary version of the scientific-domains vertical module belonging to the ASIO ontology. The data comes from a 1-star PDF file accessible at http://www.ciencia.gob.es/stfls/MICINN/Ayudas/PE_2013_2016/PE_Promocion_e_Incorporacion_Talento_y_su_Empleabilidad/FICHEROS/SE_Incorporacion/Ayudas_contratos_RYC_2016/Clasificacion_areas_cientificas_2016_AEI.pdf which was transformed in 5-star linked data file (SKOS).</rdfs:comment>
     <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
     <dct1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
-    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-15</dct1:created>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
     <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
     <owl:imports rdf:resource="http://purl.org/vocommons/voaf"/>
