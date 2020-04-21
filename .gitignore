@@ -20,6 +20,7 @@ src/ontology/onto-publ-demo-full.*
 src/ontology/onto-publ-demo-simple.*
 src/ontology/onto-publ-demo-simple-non-classified.*
 
+
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
 src/ontology/ed_definitions_merged.owl
