@@ -1159,4 +1159,463 @@
     <rdfs:comment xml:lang="en">A project developed and funded at the national level.</rdfs:comment>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#Research&amp;TeachingPersonnel">
+    <rdfs:label xml:lang="ca-es">Personal docent i investigador</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Personnel enseignant et chercheur</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="pt">Pessoal docente e investigador</skos:prefLabel>
+    <rdfs:comment xml:lang="en">Personnel devoted to teaching and research tasks.</rdfs:comment>
+    <rdfs:label xml:lang="ca-ad">Personal docent i investigador</rdfs:label>
+    <rdfs:label xml:lang="en">Teaching and research personnel</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#HumanResource"/>
+    <rdfs:label xml:lang="es">personal docente e investigador</rdfs:label>
+    <skos:prefLabel xml:lang="ca-ad">Personal docent i investigador</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Teaching and research personnel</skos:prefLabel>
+    <rdfs:label xml:lang="fr">Personnel enseignant et chercheur</rdfs:label>
+    <skos:prefLabel xml:lang="ca-es">Personal docent i investigador</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">personal docente e investigador</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Pessoal docente e investigador</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#MastersDegree">
+    <skos:prefLabel xml:lang="ca-ad">Màster universitari</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr-ch">Maîtrise universitaire</skos:prefLabel>
+    <skos:altLabel xml:lang="ca-es">Mestratge universitari</skos:altLabel>
+    <rdfs:label xml:lang="en">Master's degree</rdfs:label>
+    <skos:prefLabel xml:lang="pt-pt">Mestrado</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr-ca">Maîtrise universitaire</skos:prefLabel>
+    <rdfs:label xml:lang="pt-br">Mestrado</rdfs:label>
+    <rdfs:label xml:lang="es-ve">Magister Scientiae</rdfs:label>
+    <skos:prefLabel xml:lang="fr-be">Maîtrise universitaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Máster universitario</skos:prefLabel>
+    <rdfs:label xml:lang="fr-fr">Maîtrise universitaire</rdfs:label>
+    <skos:prefLabel xml:lang="es-es">Máster universitario</skos:prefLabel>
+    <skos:altLabel xml:lang="gl">Mestrado universitario</skos:altLabel>
+    <skos:prefLabel xml:lang="pt-br">Mestrado</skos:prefLabel>
+    <rdfs:label xml:lang="ca-es">Màster universitari</rdfs:label>
+    <skos:altLabel xml:lang="ca-ad">Mestratge universitari</skos:altLabel>
+    <skos:prefLabel xml:lang="es-ve">Magister Scientiae</skos:prefLabel>
+    <rdfs:label xml:lang="ca-ad">Màster universitari</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#AcademicDegree"/>
+    <rdfs:label xml:lang="gl">Máster universitario</rdfs:label>
+    <rdfs:label xml:lang="fr-ch">Maîtrise universitaire</rdfs:label>
+    <rdfs:label xml:lang="fr-be">Maîtrise universitaire</rdfs:label>
+    <skos:prefLabel xml:lang="en">Master's degree</skos:prefLabel>
+    <rdfs:label xml:lang="pt-pt">Mestrado</rdfs:label>
+    <rdfs:label xml:lang="fr-ca">Maîtrise universitaire</rdfs:label>
+    <rdfs:label xml:lang="es-es">Máster universitario</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="fr-fr">Maîtrise universitaire</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-es">Màster universitari</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_CP_CODE_AD700">
+    <rdfs:label>AD700</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_08"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishCPCodeList"/>
+    <skos:prefLabel>AD700</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_11">
+    <skos:note xml:lang="es">distrito</skos:note>
+    <skos:prefLabel>Lisboa (distrito)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_HASC_CODE_PT.LI"/>
+    <skos:prefLabel xml:lang="pt">Lisboa (distrito)</skos:prefLabel>
+    <skos:note xml:lang="mwl">çtrito</skos:note>
+    <ontolex:phoneticRep xml:lang="pt-PT-fonipa">liʒˈboɐ</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="mwl">Lisboua (çtrito)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt-PT-fonipa">liʒˈboɐ</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_FIPS_CODE_PO14"/>
+    <skos:notation>PT-11</skos:notation>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_ISO_CODE_PT_11"/>
+    <skos:prefLabel xml:lang="en">Lisbon District</skos:prefLabel>
+    <skos:altLabel xml:lang="mwl">Çtrito de Lisboua</skos:altLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_INEPT_CODE_11"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>Lisboa (distrito)</rdfs:label>
+    <skos:note xml:lang="en">district</skos:note>
+    <skos:prefLabel xml:lang="es">Lisboa (distrito)</skos:prefLabel>
+    <skos:note xml:lang="pt">distrito</skos:note>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <skos:altLabel xml:lang="pt">Distrito de Lisboa</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_ISO_CODE_PT_04">
+    <skos:prefLabel>PT-04</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_04"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionISOCodeList"/>
+    <rdfs:label>PT-04</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_CS">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.VC.CS"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES522"/>
+    <rdfs:label>Castellón / Castelló</rdfs:label>
+    <skos:prefLabel xml:lang="es">Castellón</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:note xml:lang="en">Province</skos:note>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">kas te ˈλon</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002815"/>
+    <skos:prefLabel>Castellón / Castelló</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca-ES-VC-fonipa">kas teˈʎo</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="eu">Castello</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_VC"/>
+    <skos:prefLabel xml:lang="pt">Castelló (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_12"/>
+    <skos:prefLabel xml:lang="ar-Latn">kạstywn</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Castelló</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">كاستيون</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca-ES-CT-fonipa">kəs tə ˈʎo</ontolex:phoneticRep>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">kas te ˈλon</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="fr">Castellón (province)</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Castellón</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Castellón (província)</skos:prefLabel>
+    <skos:notation>ES-CS</skos:notation>
+    <skos:prefLabel xml:lang="ca-ES-CT-fonipa">kəs tə ˈʎo</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Castelló</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_12"/>
+    <skos:prefLabel xml:lang="gl">Castelló</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-ES-VC-fonipa">kas teˈʎo</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_CS"/>
+    <skos:prefLabel xml:lang="ast">Castelló</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Castellón/Castelló province</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_FIPS_CODE_AN04">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_04"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishFIPSCodeList"/>
+    <skos:prefLabel>AN04</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>AN04</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_CO">
+    <skos:prefLabel>ES-CO</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_CO"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceISOCodeList"/>
+    <rdfs:label>ES-CO</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#Budget">
+    <skos:prefLabel xml:lang="es">Presupuesto</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Orçamento</skos:prefLabel>
+    <rdfs:label xml:lang="ca-es">Pressupost</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Budget</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Orzamento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Budget</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Aurrekontu</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Orçamento</rdfs:label>
+    <rdfs:comment xml:lang="en">A financial plan for a defined period that may also include planned sales volumes and revenues, resource quantities, costs and expenses, assets, liabilities and cash flows.</rdfs:comment>
+    <skos:prefLabel xml:lang="ca-es">Pressupost</skos:prefLabel>
+    <rdfs:label xml:lang="ca-ad">Pressupost</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://purl.org/cerif/frapo/FinancialEntity"/>
+    <rdfs:label xml:lang="es">Presupuesto</rdfs:label>
+    <rdfs:label xml:lang="en">Budget</rdfs:label>
+    <rdfs:label xml:lang="eu">Aurrekontu</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="fr">Budget</rdfs:label>
+    <skos:prefLabel xml:lang="ca-ad">Pressupost</skos:prefLabel>
+    <rdfs:label xml:lang="gl">Orzamento</rdfs:label>
+    <skos:altLabel xml:lang="gl">Presupuesto</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_MCLI">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndList"/>
+    <skos:prefLabel xml:lang="ast">Medicina clínica y epidemioloxía</skos:prefLabel>
+    <skos:note xml:lang="en">It encompasses all studies that aim at a better knowledge of the disease, its mechanisms or its possible treatments, when a significant part of the studies are carried out in humans.</skos:note>
+    <skos:prefLabel xml:lang="pt">Medicina clínica e epidemiologia</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_CVS"/>
+    <skos:prefLabel xml:lang="en">Clinical medicine and epidemiology</skos:prefLabel>
+    <skos:prefLabel>Medicina clínica y epidemiología</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Medicina clínica i epidemiologia</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Medicina clínica y epidemiología</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Medicina Clínica e Epidemioloxía</skos:prefLabel>
+    <skos:note xml:lang="ca">Engloba tots els estudis que tenen com a objectiu un millor coneixement de la malaltia, dels seus mecanismes o dels seus possibles tractaments, quan una part significativa dels estudis es realitza en éssers humans.</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_MCLI"/>
+    <skos:note xml:lang="gl">Abarca todos os estudos que teñen como obxectivo un mellor coñecemento da enfermidade, os seus mecanismos ou os seus posibles tratamentos, cando unha parte significativa dos estudos se realizan en humanos.</skos:note>
+    <skos:prefLabel xml:lang="fr">Médecine clinique et épidémiologie</skos:prefLabel>
+    <skos:notation>MCLI</skos:notation>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>Medicina clínica y epidemiología</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_MTMMATE">
+    <skos:prefLabel xml:lang="en">Applied Mathematics</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Matemática aplicada</skos:prefLabel>
+    <skos:prefLabel>Matemática aplicada</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_MTM"/>
+    <skos:prefLabel xml:lang="ast">Matemática aplicao</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Mathématiques appliquées</skos:prefLabel>
+    <rdfs:label>Matemática aplicada</rdfs:label>
+    <skos:prefLabel xml:lang="ca">Matemàtica aplicada</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Matemática Aplicada</skos:prefLabel>
+    <skos:notation>MTMMATE</skos:notation>
+    <skos:prefLabel xml:lang="gl">Matemáticas Aplicadas</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_MTMMATE"/>
+    <skos:prefLabel xml:lang="an">Matemática aplicada</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_28">
+    <rdfs:label>28</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_MD"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>28</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_08">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CT"/>
+    <rdfs:label>08</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>08</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_HASC_CODE_PT.CO">
+    <rdfs:label>PT.CO</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionHASCCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>PT.CO</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_06"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_05">
+    <skos:notation>AD-05</skos:notation>
+    <skos:prefLabel xml:lang="pt">Ordino (paróquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ordino (paroisse)</skos:prefLabel>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/AND"/>
+    <rdfs:label>Ordino (parròquia)</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_ISO_CODE_AD_05"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_FIPS_CODE_AN05"/>
+    <ontolex:phoneticRep xml:lang="ca-AD-fonipa">oɾ ˈði no</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="ca-AD-fonipa">oɾ ˈði no</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Ordino (parròquia)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Ordino (parroquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ordino Parish</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_DEAND_CODE_20003"/>
+    <skos:prefLabel>Ordino (parròquia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_CP_CODE_AD300"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_HASC_CODE_AD.OR"/>
+    <skos:prefLabel xml:lang="oc">Ordino (parròquia)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_GI">
+    <skos:prefLabel xml:lang="es">Gerona</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Xirona</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Girona</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Girona</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Chirona</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-fonipa">xe ˈɾo na</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002820"/>
+    <skos:notation>ES-GI</skos:notation>
+    <ontolex:phoneticRep xml:lang="ca-ES-CT-fonipa">ʒiˈ ɾo nə</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="ca">Girona</skos:prefLabel>
+    <skos:prefLabel>Girona</skos:prefLabel>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:prefLabel xml:lang="ar">جرندة</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES512"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CT"/>
+    <skos:prefLabel xml:lang="pt">Gerunda (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_17"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.CT.GN"/>
+    <skos:prefLabel xml:lang="ext">Herona (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_GI"/>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">xe ˈɾo na</ontolex:phoneticRep>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_17"/>
+    <skos:prefLabel xml:lang="ca-ES-CT-fonipa">ʒiˈ ɾo nə</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Girona province</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="eu">Girona</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Gérone (province)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">jrndẗ</skos:prefLabel>
+    <rdfs:label>Girona</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_13">
+    <skos:prefLabel xml:lang="pt-PT-fonipa">ˈpor tu</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="pt-PT-fonipa">ˈpor tu</ontolex:phoneticRep>
+    <skos:prefLabel xml:lang="mwl">Porto (çtrito)</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Porto District</skos:prefLabel>
+    <skos:altLabel xml:lang="pt">Distrito de Porto</skos:altLabel>
+    <skos:prefLabel xml:lang="pt">Porto (distrito)</skos:prefLabel>
+    <skos:note xml:lang="mwl">çtrito</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_INEPT_CODE_13"/>
+    <skos:notation>PT-13</skos:notation>
+    <skos:prefLabel>Porto (distrito)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:altLabel xml:lang="mwl">Çtrito de Porto</skos:altLabel>
+    <skos:note xml:lang="pt">distrito</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_FIPS_CODE_PO17"/>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/PRT"/>
+    <rdfs:label>Porto (distrito)</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_ISO_CODE_PT_13"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_HASC_CODE_PT.PO"/>
+    <skos:note xml:lang="en">district</skos:note>
+    <skos:prefLabel xml:lang="es">Porto (distrito)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionList"/>
+    <skos:note xml:lang="es">distrito</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ISO_CODE_ES_CL">
+    <rdfs:label>ES-CL</rdfs:label>
+    <skos:prefLabel>ES-CL</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESRegionISOCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#addresses">
+    <owl:equivalentProperty rdf:resource="http://orkg.org/core#addresses"/>
+    <rdfs:domain rdf:resource="http://www.asio.es/asioontologies/asio#ResearchContribution"/>
+    <rdfs:label xml:lang="en">addresses</rdfs:label>
+    <rdfs:range rdf:resource="http://www.asio.es/asioontologies/asio#ResearchProblem"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#FundingOrganization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Funding organization</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://vivoweb.org/ontology/core#FundingOrganization"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+    <owl:equivalentClass rdf:resource="http://purl.org/cerif/frapo/FundingAgency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_08">
+    <skos:prefLabel>Escaldes-Engordany (parròquia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_CP_CODE_AD700"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_HASC_CODE_AD.EE"/>
+    <skos:prefLabel xml:lang="oc">Escaldes-Engordany (parròquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Escaldes-Engordany (paroisse)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_DEAND_CODE_20007"/>
+    <skos:prefLabel xml:lang="pt">Escaldes-Engordany (paróquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-AD-fonipa">əs ˈkaɫ dəz əŋ guɾ ˈðaɲ</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Escaldes-Engordany Parish</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ca-AD-fonipa">əs ˈkaɫ dəz əŋ guɾ ˈðaɲ</ontolex:phoneticRep>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_FIPS_CODE_AN08"/>
+    <skos:prefLabel xml:lang="ca">Escaldes-Engordany (parròquia)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Escaldes-Engordany (parroquia)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_ISO_CODE_AD_08"/>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/AND"/>
+    <rdfs:label>Escaldes-Engordany (parròquia)</rdfs:label>
+    <skos:notation>AD-08</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES416">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_SG"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#NUTS3CodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://nuts.geovocab.org/id/ES41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PTRegionISOCodeList">
+    <rdfs:label xml:lang="en">ISO codes for the districts and regions of Portugal</rdfs:label>
+    <skos:prefLabel xml:lang="mwl">Códigos ISO de ls çtritos e regiones pertuesas</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#Country"/>
+    <rdfs:label xml:lang="es">Códigos ISO de los distritos y regiones portuguesas</rdfs:label>
+    <rdfs:label xml:lang="mwl">Códigos ISO de ls çtritos e regiones pertuesas</rdfs:label>
+    <skos:prefLabel xml:lang="es">Códigos ISO de los distritos y regiones portuguesas</skos:prefLabel>
+    <dct1:publisher rdf:resource="http://purl.org/asio/modules#STANDARDIZATION_ORGANIZATION_ISO"/>
+    <skos:prefLabel xml:lang="pt">Códigos ISO dos distritos e regiões portuguesas</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">ISO codes for the districts and regions of Portugal</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Códigos ISO dos distritos e regiões portuguesas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_19">
+    <rdfs:label>19</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CM"/>
+    <skos:prefLabel>19</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7010420">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_MD"/>
+    <rdfs:label>7010420</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceTGNCodeList"/>
+    <skos:prefLabel>7010420</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_BMED">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndCodeList"/>
+    <rdfs:label>BMED</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_BMED"/>
+    <skos:prefLabel>BMED</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#AcademicPublication">
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#Publication"/>
+    <skos:prefLabel xml:lang="gl">Publicación académica</skos:prefLabel>
+    <rdfs:label xml:lang="fr">Publication académique</rdfs:label>
+    <skos:prefLabel xml:lang="ca-es">Publicació acadèmica</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Publicación académica</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Academic publication</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-ad">Publicació acadèmica</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Publicação acadêmica</rdfs:label>
+    <rdfs:label xml:lang="es">Publicación académica</rdfs:label>
+    <rdfs:label xml:lang="gl">Publicación académica</rdfs:label>
+    <rdfs:label xml:lang="ca-es">Publicació acadèmica</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Publication académique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Academic publication</rdfs:label>
+    <rdfs:label xml:lang="ca-ad">Publicació acadèmica</rdfs:label>
+    <skos:prefLabel xml:lang="pt">Publicação acadêmica</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES70">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#NUTS2CodeList"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CN"/>
+    <skos:narrower rdf:resource="http://nuts.geovocab.org/id/ES702"/>
+    <skos:narrower rdf:resource="http://nuts.geovocab.org/id/ES701"/>
+    <skos:broader rdf:resource="http://nuts.geovocab.org/id/ES7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_26">
+    <skos:prefLabel>26</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <rdfs:label>26</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_RI"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://nuts.geovocab.org/id/ES621">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://nuts.geovocab.org/id/ES62"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_MU"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#NUTS3CodeList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_MCLIOCBV">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_MCLIOCBV"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="en">Cardiovascular diseases</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Enfermidades cardiovasculares</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Doenças cardiovasculares</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Maladies cardiovasculaires</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Enfermedaes cardiovasculares</skos:prefLabel>
+    <rdfs:label>Enfermedades cardiovasculares</rdfs:label>
+    <skos:prefLabel xml:lang="ca">Malalties cardiovasculars</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Enfermedades cardiovasculares</skos:prefLabel>
+    <skos:prefLabel>Enfermedades cardiovasculares</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_MCLI"/>
+    <skos:notation>MCLIOCBV</skos:notation>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_48">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvincePCCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>48</skos:prefLabel>
+    <rdfs:label>48</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_PV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_CP_CODE_AD200">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishCPCodeList"/>
+    <skos:prefLabel>AD200</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_03"/>
+    <rdfs:label>AD200</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ADParishList">
+    <rdfs:label xml:lang="oc">Parròquias d'Andòrra</rdfs:label>
+    <skos:prefLabel>Parishes of Andorra</skos:prefLabel>
+    <rdfs:label xml:lang="ca">Parròquies d'Andorra</rdfs:label>
+    <rdfs:label xml:lang="ca-AD-fonipa">pə ˈrɔ ki əz ðən ˈdɔ rə</rdfs:label>
+    <rdfs:label>Parishes of Andorra</rdfs:label>
+    <skos:prefLabel xml:lang="oc">Parròquias d'Andòrra</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Paróquias de Andorra</skos:prefLabel>
+    <rdfs:label xml:lang="pt">Paróquias de Andorra</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Paroisses d'Andorra</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#Country"/>
+    <skos:prefLabel xml:lang="ca">Parròquies d'Andorra</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca-AD-fonipa">pə ˈrɔ ki əz ðən ˈdɔ rə</skos:prefLabel>
+    <rdfs:label xml:lang="en">Parishes of Andorra</rdfs:label>
+    <rdfs:label xml:lang="fr">Paroisses d'Andorra</rdfs:label>
+    <skos:prefLabel xml:lang="es">Parroquias de Andorra</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Parishes of Andorra</skos:prefLabel>
+    <rdfs:label xml:lang="es">Parroquias de Andorra</rdfs:label>
+  </rdf:Description>
 </rdf:RDF>
