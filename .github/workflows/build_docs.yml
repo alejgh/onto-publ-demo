@@ -1,6 +1,9 @@
 name: Build and Deploy Documentation 2
 
 on:
+  push:
+    branches: 
+      - 'gh-pages'
   page_build:
   
 jobs:
