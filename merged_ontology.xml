@@ -4433,4 +4433,323 @@
     <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/ESP"/>
     <skos:prefLabel xml:lang="gl">Castela e León</skos:prefLabel>
   </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_M">
+    <skos:prefLabel xml:lang="fr">Madrid (province)</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Madril (probintzia)</skos:prefLabel>
+    <rdfs:label>Madrid (provincia)</rdfs:label>
+    <skos:prefLabel xml:lang="gl">Madrid (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Madrid (província)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_MD"/>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES300"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_28"/>
+    <skos:prefLabel xml:lang="ar">منطقة مدريد</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Madrid (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Madrid (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">mnṭqẗ mdryd</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_28"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7010420"/>
+    <skos:prefLabel>Madrid (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Madrid</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">ma ˈðɾið</ontolex:phoneticRep>
+    <skos:note xml:lang="en">Province</skos:note>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.MD.MD"/>
+    <skos:prefLabel xml:lang="ext">Mairil (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Madrid (provincia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_M"/>
+    <skos:notation>ES-M</skos:notation>
+    <skos:prefLabel xml:lang="en">Madrid province</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">ma ˈðɾið</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Madrit</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_FIPS_CODE_SP53">
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CN"/>
+    <rdfs:label>SP53</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESRegionFIPSCodeList"/>
+    <skos:prefLabel>SP53</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ESRegionFIPSCodeList">
+    <rdfs:label xml:lang="es">Códigos FIPS de las comunidades autónomas de España</rdfs:label>
+    <rdfs:label xml:lang="ca">Codis FIPS de les comunitats autònomes d'Espanya</rdfs:label>
+    <dct1:publisher rdf:resource="http://purl.org/asio/modules#STANDARDIZATION_ORGANIZATION_FIPS"/>
+    <rdfs:label xml:lang="en">FIPS codes for the autonomous communities of Spain</rdfs:label>
+    <skos:prefLabel xml:lang="es">Códigos FIPS de las comunidades autónomas de España</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">FIPS codes for the autonomous communities of Spain</skos:prefLabel>
+    <rdf:type rdf:resource="http://purl.org/asio/modules#Country"/>
+    <skos:prefLabel xml:lang="ca">Codis FIPS de les comunitats autònomes d'Espanya</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_MU">
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceISOCodeList"/>
+    <skos:prefLabel>ES-MU</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_MU"/>
+    <rdfs:label>ES-MU</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CTGEOF">
+    <skos:prefLabel xml:lang="en">Geomorphology</skos:prefLabel>
+    <rdfs:label>Geofísica</rdfs:label>
+    <rdfs:label>Geomorfología</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_CTGEOF"/>
+    <skos:prefLabel xml:lang="gl">Xeofísica</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Géomorphologie</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Geofísica</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Xeofísica</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Geomorfologia</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Geophysics</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Geofísica</skos:prefLabel>
+    <skos:notation>CTGEOF</skos:notation>
+    <skos:prefLabel xml:lang="gl">Xeomorfoloxía</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Géophysique</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CT"/>
+    <skos:prefLabel xml:lang="ca">Geofísica</skos:prefLabel>
+    <skos:prefLabel>Geofísica</skos:prefLabel>
+    <skos:prefLabel>Geomorfología</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Geomorfologia</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Geomorfología</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Xeomorfoloxía</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_INEPT_CODE_17">
+    <rdfs:label>17</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#PTRegionINEptCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#PT_DIVISION_LEVEL_1_PT_17"/>
+    <skos:prefLabel>17</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_DER">
+    <skos:notation>DER</skos:notation>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_CODE_DER"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_1_CSH"/>
+    <skos:prefLabel xml:lang="ca">Dret</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="gl">Dereito</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Drechu</skos:prefLabel>
+    <skos:prefLabel>Derecho</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains2ndList"/>
+    <skos:prefLabel xml:lang="es">Derecho</skos:prefLabel>
+    <rdfs:label>Derecho</rdfs:label>
+    <skos:prefLabel xml:lang="fr">Droit</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Direito</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Law</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_BFSCXPL">
+    <rdfs:label>Neurobiología y desarrollo</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="gl">Neurobioloxía e desenvolvemento</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Neurobiology and Development</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_BFSCXPL"/>
+    <skos:notation>BFSCXPL</skos:notation>
+    <skos:prefLabel xml:lang="ast">Neurobioloxía y desendolcamientu</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Neurobiologie et développement</skos:prefLabel>
+    <skos:prefLabel>Neurobiología y desarrollo</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Neurobiologia i desenvolupament</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Neurobiología y desarrollo</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Neurobiologia e Desenvolvimento</skos:prefLabel>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_2_BFS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_BU">
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+    <skos:prefLabel xml:lang="an">Burgos</skos:prefLabel>
+    <rdfs:label>Burgos</rdfs:label>
+    <skos:prefLabel xml:lang="ar-Latn">brgẖsẖ</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.CL.BU"/>
+    <skos:prefLabel xml:lang="ar">برغش</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Burgos province</skos:prefLabel>
+    <skos:prefLabel xml:lang="es-ES-fonipa">ˈβuɾ γos</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">ˈβuɾ γos</ontolex:phoneticRep>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_09"/>
+    <skos:prefLabel xml:lang="ca">Burgos</skos:prefLabel>
+    <skos:prefLabel xml:lang="ast">Burgos</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Burgus (província)</skos:prefLabel>
+    <skos:notation>ES-BU</skos:notation>
+    <skos:prefLabel xml:lang="pt">Burgos (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_09"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002810"/>
+    <skos:prefLabel xml:lang="es">Burgos</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES412"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_BU"/>
+    <skos:prefLabel xml:lang="oc">Burgos</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Burgos</skos:prefLabel>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:prefLabel xml:lang="eu">Burgos</skos:prefLabel>
+    <skos:prefLabel>Burgos</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <skos:prefLabel xml:lang="fr">Burgos (province)</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_05">
+    <rdfs:label>05</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceINECodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+    <skos:prefLabel>05</skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.asio.es/asioontologies/asio#PhDStudent">
+    <skos:altLabel xml:lang="pt">Doutorando</skos:altLabel>
+    <skos:prefLabel xml:lang="fr">Étudiant de doctorat</skos:prefLabel>
+    <skos:prefLabel xml:lang="es">Estudiante de doctorado</skos:prefLabel>
+    <rdfs:label xml:lang="gl">Estudiante de doutoramento</rdfs:label>
+    <skos:prefLabel xml:lang="en">PhD student</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.asio.es/asioontologies/asio#Role"/>
+    <rdfs:label xml:lang="ca-ad">Estudiant de doctorat</rdfs:label>
+    <skos:altLabel xml:lang="es">Doctorando</skos:altLabel>
+    <rdfs:label xml:lang="ca-es">Estudiant de doctorat</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <skos:altLabel xml:lang="ca">Doctorand</skos:altLabel>
+    <skos:altLabel xml:lang="gl">Doctorando</skos:altLabel>
+    <skos:prefLabel xml:lang="gl">Estudiante de doutoramento</skos:prefLabel>
+    <rdfs:label xml:lang="es">Estudiante de doctorado</rdfs:label>
+    <rdfs:label xml:lang="pt">Estudante de doutoramento</rdfs:label>
+    <owl:equivalentClass rdf:resource="http://swrc.ontoware.org/ontology#PhDStudent"/>
+    <skos:altLabel xml:lang="en">PhD candidate</skos:altLabel>
+    <rdfs:label xml:lang="fr">Étudiant de doctorat</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.asio.es/asioontologies/asio#GraduateStudent"/>
+    <rdfs:label xml:lang="en">PhD student</rdfs:label>
+    <skos:prefLabel xml:lang="ca">Estudiant de doctorat</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <skos:prefLabel xml:lang="pt">Estudante de doutoramento</skos:prefLabel>
+    <skos:altLabel xml:lang="fr">Doctorant</skos:altLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#">
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/eu"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <rdfs:comment xml:lang="en">A preliminary version of Spain's State Research Agency, subject areas vertical module belonging to the ASIO ontology. The data comes from a 1-star PDF file accessible at http://www.ciencia.gob.es/, which was transformed in 5-star linked data file (SKOS).</rdfs:comment>
+    <voaf:reliesOn rdf:resource="http://purl.org/asio"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/oc"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/fr"/>
+    <dct1:language rdf:resource="https://iso639-3.sil.org/code/ext"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/en"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-2/ast"/>
+    <dct1:creator rdf:nodeID="ub2bL36C15"/>
+    <rdfs:label>ASIO ontology's vertical module on scientific domains</rdfs:label>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/pt"/>
+    <rdfs:comment xml:lang="en">A preliminary version of Andorra's, Portugal's and Spain's administrative geosubdivisions integrating a geopolitic vertical module belonging to the ASIO ontology.</rdfs:comment>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/an"/>
+    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-21</dct1:created>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/gl"/>
+    <rdfs:comment xml:lang="en">A preliminary version of the scientific-domains vertical module belonging to the ASIO ontology. The data comes from a 1-star PDF file accessible at http://www.ciencia.gob.es/stfls/MICINN/Ayudas/PE_2013_2016/PE_Promocion_e_Incorporacion_Talento_y_su_Empleabilidad/FICHEROS/SE_Incorporacion/Ayudas_contratos_RYC_2016/Clasificacion_areas_cientificas_2016_AEI.pdf which was transformed in 5-star linked data file (SKOS).</rdfs:comment>
+    <owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core"/>
+    <dct1:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <dct1:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-04-15</dct1:created>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/es"/>
+    <owl:imports rdf:resource="http://purl.org/vocommons/voaf"/>
+    <dct1:creator rdf:nodeID="ub3bL33C15"/>
+    <rdfs:label>ASIO ontology's vertical module on geopolitical, administrative subdivisions</rdfs:label>
+    <dct1:language rdf:resource="http://id.loc.gov/vocabulary/iso639-1/ca"/>
+    <dct1:contributor rdf:nodeID="ub3bL56C19"/>
+    <owl:versionInfo>1.0.0</owl:versionInfo>
+    <owl:imports rdf:resource="http://purl.org/asioModules"/>
+    <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/#"/>
+    <voaf:reliesOn rdf:resource="http://www.w3.org/ns/dcat#"/>
+    <owl:imports rdf:resource="http://purl.org/asio"/>
+    <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
+    <owl:imports rdf:resource="http://www.w3.org/ns/org"/>
+    <dct1:creator rdf:nodeID="ub5bL33C15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_CODE_MCLIOCBV">
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel>MCLIOCBV</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESscientificDomains3rdCodeList"/>
+    <rdfs:label>MCLIOCBV</rdfs:label>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_SCIENTIFIC_DOMAIN_LEVEL_3_MCLIOCBV"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_INEES_CODE_16">
+    <skos:prefLabel>16</skos:prefLabel>
+    <asio1:codeOf rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_PV"/>
+    <rdfs:label>16</rdfs:label>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESRegionINEESCodeList"/>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_AD_03">
+    <skos:prefLabel xml:lang="fr">Encamp (paroisse)</skos:prefLabel>
+    <skos:notation>AD-03</skos:notation>
+    <rdfs:label>Encamp (parròquia)</rdfs:label>
+    <ontolex:phoneticRep xml:lang="ca-AD-fonipa">əŋ ˈkam</ontolex:phoneticRep>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:prefLabel xml:lang="es">Encamp (parroquia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Encamp (paróquia)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ADParishList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_FIPS_CODE_AN03"/>
+    <skos:prefLabel xml:lang="en">Encamp Parish</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_HASC_CODE_AD.EN"/>
+    <skos:prefLabel xml:lang="ca">Encamp (parròquia)</skos:prefLabel>
+    <skos:prefLabel>Encamp (parròquia)</skos:prefLabel>
+    <skos:broader rdf:resource="http://publications.europa.eu/resource/authority/country/AND"/>
+    <skos:prefLabel xml:lang="ca-AD-fonipa">əŋ ˈkam</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Encamp (parròquia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_ISO_CODE_AD_03"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_DIVISION_LEVEL_1_DEAND_CODE_20002"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#AD_CP_CODE_AD200"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_O">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_33"/>
+    <skos:prefLabel>Asturias (provincia)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">as ˈtu ɾjas</ontolex:phoneticRep>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_AS"/>
+    <skos:prefLabel xml:lang="en">Asturias province</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Astúrias (província)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ca">Astúries (província)</skos:prefLabel>
+    <ontolex:phoneticRep xml:lang="ast-ES-AS-fonipa">asˈtuɾjes</ontolex:phoneticRep>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7008911"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">as ˈtu ɾjas</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Asturias (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">مقاطعات إسبانيا</skos:prefLabel>
+    <rdfs:label>Asturias (provincia)</rdfs:label>
+    <skos:prefLabel xml:lang="es">Asturias (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Asturies (province)</skos:prefLabel>
+    <skos:notation>ES-O</skos:notation>
+    <skos:prefLabel xml:lang="ast-ES-AS-fonipa">asˈtuɾjes</skos:prefLabel>
+    <skos:prefLabel xml:lang="gl">Asturias (provincia)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES120"/>
+    <skos:prefLabel xml:lang="ast">Asturies (provincia)</skos:prefLabel>
+    <skos:prefLabel xml:lang="eu">Asturias (probintzia)</skos:prefLabel>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.AS.AS"/>
+    <skos:prefLabel xml:lang="ext">Astúrias (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_33"/>
+    <skos:prefLabel xml:lang="ar-Latn">mqạṭʿạt ạ̹sbạnyạ</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_O"/>
+    <skos:prefLabel xml:lang="pt">Astúrias (província) </skos:prefLabel>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ES_AV">
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_TGN_CODE_7002806"/>
+    <skos:prefLabel xml:lang="eu">Avila</skos:prefLabel>
+    <skos:prefLabel xml:lang="en">Ávila province</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar">آبلة</skos:prefLabel>
+    <skos:prefLabel xml:lang="an">Ávila</skos:prefLabel>
+    <skos:prefLabel xml:lang="pt">Ávila (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_INE_CODE_05"/>
+    <skos:prefLabel xml:lang="gl">Ávila</skos:prefLabel>
+    <skos:prefLabel xml:lang="fr">Ávila (province)</skos:prefLabel>
+    <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+    <skos:broader rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_ES_CL"/>
+    <skos:prefLabel xml:lang="ca">Àvila</skos:prefLabel>
+    <skos:note xml:lang="en">Province</skos:note>
+    <skos:prefLabel xml:lang="ast">Ávila</skos:prefLabel>
+    <skos:prefLabel>Ávila</skos:prefLabel>
+    <skos:prefLabel xml:lang="oc">Ávila</skos:prefLabel>
+    <skos:prefLabel xml:lang="ar-Latn">ậblẗ</skos:prefLabel>
+    <skos:prefLabel xml:lang="ext">Ávila (província)</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_ISO_CODE_ES_AV"/>
+    <skos:prefLabel xml:lang="es">Ávila</skos:prefLabel>
+    <skos:notation>ES-AV</skos:notation>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_2_POSTAL_CODE_05"/>
+    <ontolex:phoneticRep xml:lang="es-ES-fonipa">ˈaβi la</ontolex:phoneticRep>
+    <skos:inScheme rdf:resource="http://purl.org/asio/modules#ESProvinceList"/>
+    <rdfs:label>Ávila</rdfs:label>
+    <asio1:hasCode rdf:resource="http://purl.org/asio/modules#ES_DIVISION_LEVEL_1_HASC_CODE_ES.CL.AV"/>
+    <skos:prefLabel xml:lang="es-ES-fonipa">ˈaβi la</skos:prefLabel>
+    <asio1:hasCode rdf:resource="http://nuts.geovocab.org/id/ES411"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Group">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+  </rdf:Description>
 </rdf:RDF>
