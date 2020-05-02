@@ -42,7 +42,7 @@ jobs:
       run: |
         cd build
         mkdir $TIME
-        cp current/. $TIME/
+        cp -a current/. $TIME/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
