@@ -1,0 +1,5 @@
+@prefix : <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#> .
+@prefix mo: <http://purl.org/ontology/mo/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:Instrument owl:equivalentClass mo:Instrument .
