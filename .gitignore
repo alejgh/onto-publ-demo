@@ -2,6 +2,8 @@
 semantic.cache
 bin/
 
+__pycache__
+
 pylode/pyLODE
 
 *.tmp
