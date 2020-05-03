@@ -8,7 +8,7 @@
     rdfs:label "Test Ontology"@en ;
     rdfs:comment "This is just a test ontology"@en ;
     owl:imports <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test> ;
-    owl:versionInfo "" .
+    owl:versionInfo "1.1.12" .
 
 :Instrument a owl:Class ;
     owl:equivalentClass mo:Instrument .
