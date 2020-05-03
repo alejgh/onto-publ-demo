@@ -1,0 +1,47 @@
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> <http://www.w3.org/2000/01/rdf-schema#label> "Canci\u00F3n"@es .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> <http://www.w3.org/2000/01/rdf-schema#range> _:ub2bL24C21 .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:ub2bL24C21 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> <http://www.w3.org/2000/01/rdf-schema#label> "played by"@en .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer> <http://www.w3.org/2000/01/rdf-schema#label> "Singer"@en .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer> <http://www.w3.org/2000/01/rdf-schema#label> "Cantante"@es .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual> <http://www.w3.org/2000/01/rdf-schema#label> "Individuo"@es .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> <http://www.w3.org/2000/01/rdf-schema#label> "Artista"@es .
+_:ub2bL37C23 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> <http://www.w3.org/2000/01/rdf-schema#label> "part of"@en .
+_:ub2bL20C22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> <http://www.w3.org/2000/01/rdf-schema#domain> _:ub2bL33C24 .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test> <http://www.w3.org/2002/07/owl#versionInfo> "1.1.12" .
+_:ub2bL20C22 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test> <http://www.w3.org/2002/07/owl#imports> <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual> <http://www.w3.org/2000/01/rdf-schema#label> "Individual"@en .
+_:ub2bL24C21 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test> <http://www.w3.org/2000/01/rdf-schema#label> "Test Ontology"@en .
+_:ub2bL33C24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:ub2bL37C23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:ub2bL24C21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> <http://www.w3.org/2000/01/rdf-schema#label> "Artist"@en .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> <http://www.w3.org/2000/01/rdf-schema#range> _:ub2bL37C23 .
+_:ub2bL37C23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> <http://www.w3.org/2000/01/rdf-schema#comment> "musical composition for voice(s)"@en .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> <http://www.w3.org/2000/01/rdf-schema#label> "Song"@en .
+_:ub2bL20C22 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test> <http://www.w3.org/2000/01/rdf-schema#comment> "This is just a test ontology"@en .
+_:ub2bL33C24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument> <http://www.w3.org/2002/07/owl#equivalentClass> <http://purl.org/ontology/mo/Instrument> .
+_:ub2bL33C24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist> .
+<http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of> <http://www.w3.org/2000/01/rdf-schema#domain> _:ub2bL20C22 .
+
