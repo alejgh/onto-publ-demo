@@ -29,13 +29,6 @@ jobs:
 
     - name: Remove gitignore
       run: rm .gitignore
-
-    - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        ACCESS_TOKEN: ${{ secrets.PAGES_DEPLOYMENT }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: build # The folder the action should deploy.
     
     - name: Get current time
       uses: 1466587594/get-current-time@v1
@@ -43,18 +36,20 @@ jobs:
       with:
         format: YYYY-MM-DD
         utcOffset: "+08:00"
-    
+        
     - name: Use current time
       env:
         TIME: "${{ steps.current-time.outputs.time }}"
       run: |
         git checkout gh-pages
+        cp -an current/. build/current/
+        cd build
         mkdir $TIME
         cp -a current/. $TIME/
-    
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.PAGES_DEPLOYMENT }}
         BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: . # The folder the action should deploy.
+        FOLDER: build # The folder the action should deploy.
