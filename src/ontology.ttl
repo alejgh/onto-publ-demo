@@ -10,7 +10,7 @@
                                                                          owl:imports <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test> ;
                                                                          rdfs:comment "This is just a test ontology"@en ;
                                                                          rdfs:label "Test Ontology"@en ;
-                                                                         owl:versionInfo "" .
+                                                                         owl:versionInfo "1.1.12" .
 
 #################################################################
 #    Object Properties
