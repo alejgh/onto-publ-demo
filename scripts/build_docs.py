@@ -4,7 +4,7 @@ import requests
 from common import OUTPUT_FOLDER, try_create_dir
 
 LODE_ENDPOINT = 'http://150.146.207.114/lode/extract'
-ONTOLOGY_URL = 'https://alejgh.github.io/onto-publ-demo/merged_ontology.xml'
+ONTOLOGY_URL = 'https://alejgh.github.io/onto-publ-demo/current/merged_ontology.xml'
 OUTPUT_FILE_NAME = 'merged_ontology.html'
 
 def extract_docs_from(onto_url, lode_endpoint):
