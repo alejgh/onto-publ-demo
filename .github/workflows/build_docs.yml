@@ -44,7 +44,7 @@ jobs:
         git checkout gh-pages
         cp -an current/. build/current/
         cd build
-        mkdir $TIME
+        mkdir $F_TIME
         cp -a current/. $F_TIME/
 
     - name: Deploy
