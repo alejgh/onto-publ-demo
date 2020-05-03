@@ -39,13 +39,13 @@ jobs:
         
     - name: Use current time
       env:
-        TIME: "${{ steps.current-time.outputs.time }}"
+        F_TIME: "${{ steps.current-time.outputs.formattedTime }}"
       run: |
         git checkout gh-pages
         cp -an current/. build/current/
         cd build
         mkdir $TIME
-        cp -a current/. $TIME/
+        cp -a current/. $F_TIME/
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
