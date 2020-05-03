@@ -1,5 +1,5 @@
 @prefix : <http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#> .
-@prefix default1: <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#> .
+@prefix default1: <http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-teest#> .
 @prefix mo: <http://purl.org/ontology/mo/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -60,4 +60,3 @@ default1:Individual a owl:Class ;
     rdfs:label "Song"@en,
         "Canción"@es ;
     rdfs:comment "musical composition for voice(s)"@en .
-
