@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of">
+    <rdfs:range rdf:nodeID="ub2bL24C21"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="ub2bL20C22"/>
+    <rdfs:label xml:lang="en">part of</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Instrument">
+    <owl:equivalentClass rdf:resource="http://purl.org/ontology/mo/Instrument"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL36C24">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"/>
+    <rdfs:label xml:lang="es">Cantante</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Singer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="en">Song</rdfs:label>
+    <rdfs:comment xml:lang="en">musical composition for voice(s)</rdfs:comment>
+    <rdfs:label xml:lang="es">Canción</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL24C21">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <owl:imports rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test"/>
+    <owl:versionInfo>1.1.12</owl:versionInfo>
+    <rdfs:comment xml:lang="en">This is just a test ontology</rdfs:comment>
+    <rdfs:label xml:lang="en">Test Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist">
+    <rdfs:label xml:lang="en">Artist</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label xml:lang="es">Artista</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Lee_Ji_Eun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by">
+    <rdfs:range rdf:nodeID="ub2bL40C23"/>
+    <rdfs:domain rdf:nodeID="ub2bL36C24"/>
+    <rdfs:label xml:lang="en">played by</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL20C22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test#Individual">
+    <rdfs:label xml:lang="es">Individuo</rdfs:label>
+    <rdfs:label xml:lang="en">Individual</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="ub2bL40C23">
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Artist"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Album">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/imported-onto-test">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#has_song">
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Singer"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+</rdf:RDF>
