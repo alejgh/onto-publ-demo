@@ -23,8 +23,7 @@
          rdfs:label "part of"@en .
 
 :has_song rdf:type owl:ObjectProperty ;
-          rdfs:domain :Singer ;
-          rdfs:range :Song .
+          rdfs:domain :Singer .
 
 ###  http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by
 :played_by rdf:type owl:ObjectProperty ;
