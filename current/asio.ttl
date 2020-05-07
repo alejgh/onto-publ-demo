@@ -17,8 +17,7 @@
         owl:NamedIndividual .
 
 :has_song a owl:ObjectProperty ;
-    rdfs:domain :Singer ;
-    rdfs:range :Song .
+    rdfs:domain :Singer .
 
 :part_of a owl:ObjectProperty ;
     rdfs:label "part of"@en ;
@@ -51,5 +50,5 @@ default1:Individual a owl:Class ;
 :Song a owl:Class ;
     rdfs:label "Song"@en,
         "Canción"@es ;
-    rdfs:comment "musical composition for voice(s)"@en .
+    rdfs:comment "Musical composition for voice(s)"@en .
 
