@@ -59,7 +59,7 @@
 
 ###  http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#Song
 :Song rdf:type owl:Class ;
-      rdfs:comment "musical composition for voice(s)"@en ;
+      rdfs:comment "Musical composition for voice(s)"@en ;
       rdfs:label "Canción"@es ,
                  "Song"@en .
 
