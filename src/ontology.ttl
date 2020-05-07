@@ -18,14 +18,8 @@
 
 ###  http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#part_of
 :part_of rdf:type owl:ObjectProperty ;
-         rdfs:domain [ rdf:type owl:Restriction ;
-                       owl:onProperty :part_of ;
-                       owl:someValuesFrom :Song
-                     ] ;
-         rdfs:range [ rdf:type owl:Restriction ;
-                      owl:onProperty :part_of ;
-                      owl:someValuesFrom :Album
-                    ] ;
+         rdfs:domain :Song ;
+         rdfs:range :Album ;
          rdfs:label "part of"@en .
 
 :has_song rdf:type owl:ObjectProperty ;
@@ -34,14 +28,8 @@
 
 ###  http://www.semanticweb.org/alejandro/ontologies/2020/3/onto-publ-test#played_by
 :played_by rdf:type owl:ObjectProperty ;
-           rdfs:domain [ rdf:type owl:Restriction ;
-                         owl:onProperty :played_by ;
-                         owl:someValuesFrom :Song
-                       ] ;
-           rdfs:range [ rdf:type owl:Restriction ;
-                        owl:onProperty :played_by ;
-                        owl:someValuesFrom :Artist
-                      ] ;
+           rdfs:domain :Song ;
+           rdfs:range :Artist ;
            rdfs:label "played by"@en .
 
 
